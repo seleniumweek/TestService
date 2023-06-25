@@ -1,0 +1,30 @@
+2023-06-13 10:41:49.008  INFO 12196 - [       main] com.epam.healenium.Application   : Starting Application using Java 20 on DESKTOP-UGSK2RD with PID 12196 (C:\Users\admin\git\healenium\shell-installation\web\hlm-backend.jar started by admin in C:\Users\admin\git\healenium\shell-installation\web) 
+2023-06-13 10:41:49.024  INFO 12196 - [       main] com.epam.healenium.Application   : No active profile set, falling back to 1 default profile: "default" 
+2023-06-13 10:41:51.942  INFO 12196 - [       main] .RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode. 
+2023-06-13 10:41:52.395  INFO 12196 - [       main] .RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 370 ms. Found 4 JPA repository interfaces. 
+2023-06-13 10:41:54.208  INFO 12196 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat initialized with port(s): 7878 (http) 
+2023-06-13 10:41:54.238  INFO 12196 - [       main] o.a.c.core.StandardService       : Starting service [Tomcat] 
+2023-06-13 10:41:54.238  INFO 12196 - [       main] o.a.c.core.StandardEngine        : Starting Servlet engine: [Apache Tomcat/9.0.64] 
+2023-06-13 10:41:54.395  INFO 12196 - [       main] o.a.c.c.C.[.[localhost].[/]      : Initializing Spring embedded WebApplicationContext 
+2023-06-13 10:41:54.395  INFO 12196 - [       main] rvletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5184 ms 
+2023-06-13 10:41:54.982  INFO 12196 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Starting... 
+2023-06-13 10:41:55.466  INFO 12196 - [       main] c.z.hikari.HikariDataSource      : HikariPool-1 - Start completed. 
+2023-06-13 10:41:55.810  INFO 12196 - [       main] liquibase.database               : Set default schema name to healenium 
+2023-06-13 10:41:55.966  INFO 12196 - [       main] liquibase.lockservice            : Successfully acquired change log lock 
+2023-06-13 10:41:57.262  INFO 12196 - [       main] liquibase.changelog              : Reading from healenium.databasechangelog 
+2023-06-13 10:41:57.387  INFO 12196 - [       main] liquibase.lockservice            : Successfully released change log lock 
+2023-06-13 10:41:57.715  INFO 12196 - [       main] o.h.j.internal.util.LogHelper    : HHH000204: Processing PersistenceUnitInfo [name: default] 
+2023-06-13 10:41:57.840  INFO 12196 - [       main] org.hibernate.Version            : HHH000412: Hibernate ORM core version 5.6.9.Final 
+2023-06-13 10:41:58.469  INFO 12196 - [       main] o.h.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final} 
+2023-06-13 10:41:58.641  INFO 12196 - [       main] org.hibernate.dialect.Dialect    : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQLDialect 
+2023-06-13 10:41:59.922  WARN 12196 - [       main] o.h.m.internal.MetadataContext   : HHH015011: Unable to locate static metamodel field : com.epam.healenium.model.domain.Selector_#nodePathWrapper; this may or may not indicate a problem with the static metamodel 
+2023-06-13 10:41:59.937  INFO 12196 - [       main] h.e.t.j.p.i.JtaPlatformInitiator : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform] 
+2023-06-13 10:41:59.953  INFO 12196 - [       main] ontainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default' 
+2023-06-13 10:42:01.499  INFO 12196 - [       main] .a.w.s.WelcomePageHandlerMapping : Adding welcome page template: index 
+2023-06-13 10:42:02.249  INFO 12196 - [       main] .s.b.a.e.w.EndpointLinksResolver : Exposing 1 endpoint(s) beneath base path '/actuator' 
+2023-06-13 10:42:02.343  INFO 12196 - [       main] o.s.b.w.e.t.TomcatWebServer      : Tomcat started on port(s): 7878 (http) with context path '' 
+2023-06-13 10:42:02.468  INFO 12196 - [       main] com.epam.healenium.Application   : Started Application in 27.218 seconds (JVM running for 41.257) 
+2023-06-13 11:37:50.298  WARN 12196 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m54s324ms906µs100ns). 
+2023-06-13 11:53:31.240  WARN 12196 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m40s709ms889µs). 
+2023-06-13 12:00:42.298  WARN 12196 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m40s993ms491µs600ns). 
+2023-06-13 19:59:13.432  WARN 12196 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=7h57m12s835ms478µs600ns). 
